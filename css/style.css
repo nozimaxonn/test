@@ -1,0 +1,170 @@
+@import url(font.css);
+
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway-Regular';
+}
+
+.cantainer{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+nav{
+    background: #0C0C0C;
+    border-bottom: 1px solid white;
+}
+
+
+.nav__navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav__navigation-mini{
+    display: flex;
+    align-items: center;
+}
+
+
+.nav__navigation-title{
+    color: white;
+    font-family: 'Roboto-Regular';
+    line-height: 18px;
+    margin-left: 5px;
+}
+
+.ul__list{
+    display: flex;
+    padding: 20px 0;
+    
+}
+
+.ul__list-link{
+    color: white;
+    line-height: 18px;
+    font-family: 'Roboto-Regular';
+    margin-left: 20px;
+}
+
+.ul__link{
+    margin-left: 0;
+    display: inline-block;
+    padding: 22px 14px;
+    transition: 0.5s;
+}
+
+.ul__link:hover{
+    background: rgba(105, 207, 23, 0.75);
+}
+
+.ul__menu{
+    padding: 0;
+}
+
+.header{
+    background: url(../img/header__bg.jpg) no-repeat center/cover;
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Raleway-Black';
+    font-size: 72px;
+    line-height: 84px;
+    color:  #69CF17;
+    padding: 167px 0 18px;
+    
+}
+
+h3{
+    padding-bottom: 18px;
+    color: #69CF17;
+    font-size: 36px;
+    line-height: 17px;
+}
+
+.header__text{
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    
+}
+
+.header__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__box-link{
+    padding: 33px 76px;
+    background: rgba(105, 207, 23, 0.5);
+    font-family: 'Raleway-Thin';
+    font-size: 50px;
+    color: white;
+    display: inline-block;
+
+}
+
+.header__box-link2{
+    padding: 15px 70px;
+    background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+    border-radius: 6px;
+    color: white;
+}
+
+
+.box{
+    background: #0C0C0C;
+    height: 48px;
+    
+}
+
+.menu{
+    background: #292929;
+    
+}
+
+
+.ul__menus{
+    display: flex;
+    column-gap: 30px;
+    margin-left: 20px;
+    
+}
+
+.ul__menus-list{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 20px 0;
+}
+
+.ul__menus-list::before{
+    content: " ";
+    position: absolute;
+    width: 0;
+    bottom: 0;
+    height: 3px;
+    background: white;
+    transform: 0.5s;
+}
+
+.ul__menus-list:hover::before{
+    width: 100%;
+}
+
+
+
+
+
